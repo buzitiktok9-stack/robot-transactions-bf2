@@ -53,7 +53,7 @@ Règles importantes:
 
   try {
     const apiKey = "AQ.Ab8RN6LTb7kMvBpt5M6UIFOYjXPkqBRT8Ntc4jV_7P59-i5HZA"; // ⚠️ à remplacer plus tard par GEMINI_API_KEY
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
 
     const body = {
       contents: [{
